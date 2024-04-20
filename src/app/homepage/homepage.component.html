@@ -1,0 +1,48 @@
+<div class="wrapper">
+    <div class="hero">
+        <h1>Explore the world, one adventure at a time</h1>
+    </div>
+
+    <section id = "first">
+        <main class="main-content">
+
+            <div class="popular-destinations">
+                <h2>Popular Destinations</h2>
+                <div class="mySlides">
+                <img src="../assets/Images/paris-france-gallery-2.jpg" alt="Destination 1" class="image-container">
+                <h3>Paris, France</h3>
+                <p>The City of Lights awaits!</p>
+                </div>
+                <div class="mySlides">
+                <img src="../assets/Images/Bali-Indonesia.jpeg" alt="Destination 2" class="image-container">
+                <h3>Bali, Indonesia</h3>
+                <p>Find paradise beaches and vibrant culture.</p>
+                </div>
+                <!-- Navigation arrows -->
+                <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+                <a class="next" (click)="plusSlides(1)">&#10095;</a>
+            </div>
+            
+
+            <!-- <section class="featured-content">
+                <h2>Featured Content</h2>
+            </section> -->
+
+            <div class="cta-section">
+                <div class="container">
+                    <h2>Bucket List</h2>
+                    <a routerLink="/bucketlist">
+                        <img src="../assets/Images/buckelist.jpeg" alt="Bucket List" class="image-container">
+                    </a>
+                </div>
+                <div class="container">
+                    <h2>Travel Planner</h2>
+                    <a routerLink="/travel">
+                        <img src="../assets/Images/travel.jpeg" alt="Travel Planner" class="image-container">
+                    </a>
+                </div>
+            </div>
+
+        </main>
+    </section>
+</div>
